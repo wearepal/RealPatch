@@ -1,0 +1,7 @@
+defaults:
+  - main_schema
+  - data: celeba
+  - matching: realpatch_baseline
+
+seed: 123
+direction_list: ["tc", "ct"]

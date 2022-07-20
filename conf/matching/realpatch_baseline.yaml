@@ -1,0 +1,7 @@
+defaults:
+  - /matching_realpatch_schema
+
+fixed_caliper_interval: [0.1, 0.9]
+std_caliper: 0.2
+reweight: "spurious"
+temperature: 0.75

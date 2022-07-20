@@ -1,0 +1,13 @@
+defaults:
+  - /celeba_schema
+
+dataset: "celebA_128"
+features_path: "data/features_file.npz"
+labels_train_path: "data/labels_train.csv"
+labels_val_path: "data/labels_val.csv"
+labels_test_path: "data/labels_test.csv"
+subgroup_vars: ["z"]
+outcome: "y"
+
+
+
